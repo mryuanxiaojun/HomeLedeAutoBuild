@@ -15,7 +15,7 @@ on:
     branches:
       - master
     paths:
-      - 'defconfig'
+      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -24,9 +24,9 @@ on:
 env:
   REPO_URL: https://github.com/xiaoqingfengATGH/HomeLede
   REPO_BRANCH: master
-  CONFIG_FILE: defconfig
+  CONFIG_FILE: .config
   DIY_SH: customize.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
