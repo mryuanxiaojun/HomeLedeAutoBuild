@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/xiaoqingfengATGH/HomeLede
-  REPO_BRANCH: master
+  REPO_BRANCH: k5
   CONFIG_FILE: .config
   DIY_SH: customize.sh
   SSH_ACTIONS: false
